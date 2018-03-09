@@ -72,24 +72,31 @@ this.transitionView.consume()
 
 
 ```js
-const SpecificTransitionChildView = SlowEnlargeTransitionChildView;
-this.transitionView.enqueue((
-    <View style={{flex: 1, flexDirection: 'row'}}>
-        <Image style={{flex: 1, alignSelf: 'stretch', resizeMode: 'stretch'}}
-            source={{uri: `https://picsum.photos/2000/2000&t=${new Date().getTime()}`}}
-            onLoad={() => {
-            
-                this.transitionView.consume();
-                
-                setTimeout(() => {
-                    this.onChange();
-                }, 3000);
-            }}
-        />
-    </View>
-), {
-    SpecificTransitionChildView: SpecificTransitionChildView,
-});
+[...]
+
+onChange()
+{
+    const SpecificTransitionChildView = SlowEnlargeTransitionChildView;
+    this.transitionView.enqueue((
+        <View style={{flex: 1, flexDirection: 'row'}}>
+            <Image style={{flex: 1, alignSelf: 'stretch', resizeMode: 'stretch'}}
+                source={{uri: `https://picsum.photos/2000/2000&t=${new Date().getTime()}`}}
+                onLoad={() => {
+
+                    this.transitionView.consume();
+
+                    setTimeout(() => {
+                        this.onChange();
+                    }, 3000);
+                }}
+            />
+        </View>
+    ), {
+        SpecificTransitionChildView: SpecificTransitionChildView,
+    });
+}
+
+[...]
 
 ```
 
