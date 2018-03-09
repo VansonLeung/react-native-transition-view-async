@@ -1,6 +1,6 @@
 {
   "name": "react-native-transition-view-async",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "This transition view allows preparation of components before rendering animation. Suitable for showing animations for asynchronous presentation.",
   "main": "index.js",
   "scripts": {

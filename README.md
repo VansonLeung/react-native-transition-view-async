@@ -68,7 +68,7 @@ this.transitionView.consume()
 
 ### 3. Use case: Screensaver
 
-<img src="https://media.giphy.com/media/nbPiguFpasY1Fdv9uk/giphy.gif" alt="Demo" />
+<img src="http://119.247.27.249/ddsdgiphy.gif" alt="Demo" />
 
 
 ```js
