@@ -101,9 +101,9 @@ this.transitionView.enqueue((
 All the custom transition components should inherit ```<TransitionChildView>```.
 To understand how the transition animations are made, refer to our transition examples:
 
-FadeTransitionChildView.js
-ShowcaseTransitionChildView.js
-SlowEnlargeTransitionChildView.js
+- FadeTransitionChildView.js
+- ShowcaseTransitionChildView.js
+- SlowEnlargeTransitionChildView.js
 
 
 
