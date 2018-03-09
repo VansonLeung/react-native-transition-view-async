@@ -1,0 +1,44 @@
+{
+  "name": "react-native-transition-view-async",
+  "version": "0.0.1",
+  "description": "This transition view allows preparation of components before rendering animation. Suitable for showing animations for asynchronous presentation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VansonLeung/react-native-transition-view-async.git"
+  },
+  "tags": [
+    "react",
+    "react-native",
+    "react-component",
+    "ios",
+    "android",
+    "animation",
+    "transition",
+    "easing",
+    "async"
+  ],
+  "keywords": [
+    "react",
+    "react-native",
+    "ios",
+    "android",
+    "react-component",
+    "animation",
+    "transition",
+    "easing",
+    "async"
+  ],
+  "author": "Vanson Wing Leung <vanson@vanportdev.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VansonLeung/react-native-transition-view-async/issues"
+  },
+  "homepage": "https://github.com/VansonLeung/react-native-transition-view-async#readme",
+  "dependencies": {
+    "react-native": ">=0.25.0"
+  }
+}
