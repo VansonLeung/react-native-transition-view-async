@@ -4,11 +4,6 @@ This transition view allows preparation of components before rendering animation
 [![npm version](https://badge.fury.io/js/react-native-transition-view-async.svg)](http://badge.fury.io/js/react-native)
 [![NPM](https://nodei.co/npm/react-native-transition-view-async.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-native-transition-view-async/)
 
-## Demo
-[![Demo Showcase](https://img.youtube.com/vi/lvyJX2-l8pM/0.jpg)](https://www.youtube.com/watch?v=lvyJX2-l8pM)
-##
-<img src="http://i.imgur.com/gD7kFvi.gif" alt="Demo Showcase" width=200 height=300 style="width: 200px; height: 300px; max-width: auto;"/>
-
 
 ## Prerequisites
 React Native 0.25 or higher
@@ -72,6 +67,9 @@ this.transitionView.consume()
 
 
 ### 3. Use case: Screensaver
+
+<img src="http://www.giphy.com/gifs/YW1xDxZcPulYaux1Pn" alt="Demo" width=200 height=300 style="width: 200px; height: 300px; max-width: auto;"/>
+
 
 ```js
 const SpecificTransitionChildView = SlowEnlargeTransitionChildView;
