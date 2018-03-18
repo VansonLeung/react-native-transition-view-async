@@ -66,7 +66,7 @@ this.transitionView.consume()
 
 
 
-### 3. Use case: Screensaver
+### 3. Use case: Screensaver, Advertisement Kiosks
 
 <img src="http://119.247.27.249/ddsdgiphy.gif" alt="Demo" />
 
