@@ -1,5 +1,5 @@
 # react-native-transition-view-async
-This transition view allows preparation of components before rendering animation. Suitable for showing animations for asynchronous presentation.
+This transition view allows preparation of components before rendering animation. Suitable for showing animations for asynchronous presentation, e.g. For ```<Image source={{uri: xxxx }}/>``` which loads network images asynchronously, you will still want the transition to occur seamlessly.
 
 [![npm version](https://badge.fury.io/js/react-native-transition-view-async.svg)](http://badge.fury.io/js/react-native)
 [![NPM](https://nodei.co/npm/react-native-transition-view-async.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-native-transition-view-async/)
