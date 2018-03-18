@@ -116,5 +116,6 @@ To understand how the transition animations are made, refer to our transition ex
 - [SlowEnlargeTransitionChildView.js](https://github.com/VansonLeung/react-native-transition-view-async/blob/master/lib/SlowEnlargeTransitionChildView.js)
 
 
-
+### 5. Pending Improvements
+- Build in Navigator Functionality (push / pop / back button / replace / reset / refresh / componentWillAppear / componentDidAppear / componentWillDisappear / componentDidDisappear)
 
