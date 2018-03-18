@@ -13,6 +13,11 @@ React Native 0.25 or higher
 npm i react-native-transition-view-async --save
 ```
 
+## Sample Code
+
+https://github.com/VansonLeung/react-native-transition-view-async/blob/master/sample/example.js
+
+
 ## Usage
 
 ### 1. Bootstrap Transition View
