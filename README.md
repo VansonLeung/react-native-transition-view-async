@@ -73,7 +73,9 @@ this.transitionView.consume()
 
 ### 3. Use case: Screensaver, Advertisement Kiosks
 
-<img src="http://119.247.27.249/ddsdgiphy.gif" alt="Demo" />
+<a href="http://119.247.27.249/ddsdgiphy.gif">
+  <img src="http://119.247.27.249/ddsdgiphy.gif" alt="Demo" />
+</a>
 
 
 ```js
